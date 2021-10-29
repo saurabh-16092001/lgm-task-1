@@ -1,0 +1,113 @@
+body {
+  font-family: "Zen Old Mincho", serif;
+  /* background-color: #66BFBF; */
+}
+/* navbar logo */
+.navbar-brand {
+  width: 20%;
+  height: 20%;
+}
+#btn1 {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btn1:hover {
+  background: #60f035;
+  background-image: -webkit-linear-gradient(top, #60f035, #c0e82e);
+  background-image: -moz-linear-gradient(top, #60f035, #c0e82e);
+  background-image: -ms-linear-gradient(top, #60f035, #c0e82e);
+  background-image: -o-linear-gradient(top, #60f035, #c0e82e);
+  background-image: linear-gradient(to bottom, #60f035, #c0e82e);
+  text-decoration: none;
+}
+#btn2{
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btn2:hover {
+  background: #31def5;
+  background-image: -webkit-linear-gradient(top, #31def5, #8debe9);
+  background-image: -moz-linear-gradient(top, #31def5, #8debe9);
+  background-image: -ms-linear-gradient(top, #31def5, #8debe9);
+  background-image: -o-linear-gradient(top, #31def5, #8debe9);
+  background-image: linear-gradient(to bottom, #31def5, #8debe9);
+  text-decoration: none;
+}
+.buy{
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.buy:hover {
+    background: #31def5;
+    background-image: -webkit-linear-gradient(top, #31def5, #8debe9);
+    background-image: -moz-linear-gradient(top, #31def5, #8debe9);
+    background-image: -ms-linear-gradient(top, #31def5, #8debe9);
+    background-image: -o-linear-gradient(top, #31def5, #8debe9);
+    background-image: linear-gradient(to bottom, #31def5, #8debe9);
+    text-decoration: none;
+  }
+  .learn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #5ad934;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .learn:hover {
+    background: #a0f531;
+    background-image: -webkit-linear-gradient(top, #a0f531, #e2eb8d);
+    background-image: -moz-linear-gradient(top, #a0f531, #e2eb8d);
+    background-image: -ms-linear-gradient(top, #a0f531, #e2eb8d);
+    background-image: -o-linear-gradient(top, #a0f531, #e2eb8d);
+    background-image: linear-gradient(to bottom, #a0f531, #e2eb8d);
+    text-decoration: none;
+  }
+  hr{
+    border-style: none;
+    width: 5%;
+    border-top-style:  dotted;
+    border-color: grey;
+    border-width: 10px;
+    margin: auto;
+  }
+  .nav-item{
+      cursor:pointer;
+  }
+  .nav-item:hover{
+   background-color: rgb(31, 29, 29);
+   border-radius: 8px;
+  }
